@@ -1,0 +1,23 @@
+{
+  "name": "videojuego-de-naves-en-html5",
+  "version": "1.0.0",
+  "description": "Es un videojuego de naves realizado con HTML5 canvas y JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "videojuego",
+    "naves",
+    "html5",
+    "prograclub",
+    "codigo",
+    "linea"
+  ],
+  "author": "PrograClub",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

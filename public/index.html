@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PrograClub Games</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Bangers|Press+Start+2P|Roboto+Mono');
+		
+		.pasos{
+			font-family: 'Roboto Mono', monospace;
+			font-size: 25px;
+			padding: 1em;
+			margin: 1em;
+			color: #BCBCBA;
+		}
+
+		.titulo{
+			font-family: 'Bangers', cursive;
+			font-size: 65px;
+			color: #FFF;
+			text-shadow: 3px 3px 6px #000000;
+		}
+
+		.jugar{
+			font-family: 'Press Start 2P', cursive;
+			font-size: 45px;
+			margin: 1em;
+			padding: 1em;
+			background-color: #FC5B4D;
+			border: none;
+			cursor: pointer;
+			color: rgba(255,255,255,0.5);
+			box-shadow: 10px 10px rgba(0,0,0,0.6);
+
+			transition: all 0.25s;
+			moz-transition: all 0.25s;
+            webkit-transition: all 0.25s;
+		}
+
+		.jugar:hover {
+			color: rgba(255,255,255,1);
+			box-shadow: 5px 5px rgba(0,0,0,0.6);
+		}
+
+		body{
+			background-color: #354252;
+		}
+
+		.flotar{
+			height: 50px;
+			position: absolute;
+			right: 0;
+			bottom: 4px;
+			left: 0;
+			text-align: center;
+			font-family: 'Roboto Mono', monospace;
+			color: #BCBCBA;
+		}
+
+		.flotar p a{
+			text-decoration: none;
+			color: #FFF;
+		}
+
+		.flotar p a:hover{
+			text-decoration: underline;
+		}
+
+	</style>
+</head>
+<body>
+	<center>
+	<div>
+		<h1 class="titulo">Videojuego de Naves en HTML5</h1>
+		<h3 class="pasos">
+			Antes de empezar a jugar <br />
+			- Poner pantalla completa el navegador <br />
+			- Mover la nave con la teclas direccionales<br />
+		</h3>
+	</div>
+	<div>	
+		<button class="jugar" onclick="window.location.href='/game.html'"> JUGAR</button>
+	</div>
+
+	<div class="flotar">
+		<p>Creado por <a href="https://twitter.com/prograclub" target="_blank">@PrograClub</a></p>
+	</div>
+	</center>
+</body>
+</html>
